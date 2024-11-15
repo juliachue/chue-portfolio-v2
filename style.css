@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Serif Text", serif;
+  color: antiquewhite;
+}
+body {
+  background-image: url(images/IT.jpg);
+  background-size: cover;
+  margin: 30px;
+  height: 120vh;
+}
+h1 {
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 5px;
+  text-shadow: 5px 5px 5px #1fcff6;
+}
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 250px;
+  height: 270px;
+  border: 5px solid #1fcff6;
+  border-radius: 50%;
+}
+p {
+  line-height: 1.5;
+}
+h2 {
+  margin-top: 30px;
+  color: #1fcff6;
+  border-bottom: 4px solid;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+.contact {
+  padding-bottom: 50px;
+}
